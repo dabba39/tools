@@ -1,6 +1,9 @@
 " plugin manager in private dir, see https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
+" syntax on
+syntax on
+
 " let vim recognize md as markdown
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
