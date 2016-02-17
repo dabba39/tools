@@ -1,4 +1,4 @@
-" plugin manager in private dir
+" plugin manager in private dir, see https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
 " let vim recognize md as markdown
